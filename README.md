@@ -1,21 +1,38 @@
-MIT License
+M# AbdiAcademy Unlock Page
 
-Copyright (c) 2025 Abdi Academy
+A simple, free content-locker webpage created for **Abdi Academy**.  
+This page requires users to complete three engagement steps before accessing a protected link:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Follow the Abdi Academy Facebook Page  
+2. Join the official Telegram Group  
+3. Subscribe to the YouTube Channel  
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Once the steps are completed, the locked YouTube link becomes visible.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## 🔥 Purpose
+This project is designed to increase cross-platform engagement by directing users to:
+- Facebook Page  
+- Telegram Group  
+- YouTube Channel  
+
+It is lightweight, works on all devices, and requires no backend.
+
+## 🚀 Features
+- Clean and simple HTML/CSS/JavaScript
+- No external dependencies
+- Fully free to host (GitHub Pages or Netlify)
+- Easy to customize
+
+## 📂 File Included
+- `locker_page.html` — The main content-locker webpage
+
+## 🌐 Hosting Instructions
+You can host this project for free using:
+- **GitHub Pages**  
+- **Netlify**  
+
+Both options take less than 2 minutes.
+
+## 📬 Contact
+For educational content, tutorials, and physics lessons:  
+**Abdi Academy** — YouTube | Facebook | Telegram
