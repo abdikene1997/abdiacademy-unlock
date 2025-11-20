@@ -1,4 +1,4 @@
-M# AbdiAcademy Unlock Page
+# AbdiAcademy Unlock Page
 
 A simple, free content-locker webpage created for **Abdi Academy**.  
 This page requires users to complete three engagement steps before accessing a protected link:
