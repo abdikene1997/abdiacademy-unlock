@@ -1,11 +1,63 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html>
 <head>
-<meta charset='UTF-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-<title>Unlock Content</title>
+    <title>Abdi Academy Locker</title>
+    <style>
+        body { font-family: Arial; text-align: center; padding: 50px; }
+        h1 { color: #333; }
+        button {
+            padding: 15px 30px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover { background-color: #45a049; }
+        #protected { display: none; margin-top: 20px; }
+    </style>
 </head>
 <body>
-<p>Your content locker page is ready.</p>
+    <h1>Welcome! Access the protected link below after following/joining:</h1>
+
+    <button onclick="markClicked('facebook')">Follow Facebook</button>
+    <button onclick="markClicked('telegramGroup')">Join Telegram Group</button>
+    <button onclick="markClicked('telegramChannel')">Join Telegram Channel</button>
+    <button onclick="markClicked('youtube')">Subscribe YouTube</button>
+
+    <div id="protected">
+        <h2>Protected Link:</h2>
+        <a href="http://www.youtube.com/@AbdiAcademyOfficial" target="_blank">Go to YouTube Channel</a>
+    </div>
+
+    <script>
+        // Track which buttons have been clicked
+        let clicked = { 
+            facebook: false, 
+            telegramGroup: false, 
+            telegramChannel: false, 
+            youtube: false 
+        };
+
+        function markClicked(platform) {
+            // Open the correct link in a new tab
+            if(platform === 'facebook') window.open('https://facebook.com/AbdiAcademyOfficial', '_blank');
+            if(platform === 'telegramGroup') window.open('https://t.me/AbdiiAcademy', '_blank');
+            if(platform === 'telegramChannel') window.open('https://t.me/AbdiAcademyOfficial', '_blank');
+            if(platform === 'youtube') window.open('http://www.youtube.com/@AbdiAcademyOfficial', '_blank');
+
+            clicked[platform] = true;
+            checkAllClicked();
+        }
+
+        function checkAllClicked() {
+            // Show the protected link if all buttons clicked
+            if (clicked.facebook && clicked.telegramGroup && clicked.telegramChannel && clicked.youtube) {
+                document.getElementById('protected').style.display = 'block';
+            }
+        }
+    </script>
 </body>
 </html>
